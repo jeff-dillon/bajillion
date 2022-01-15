@@ -17,7 +17,7 @@ The concept is simple: Relate a billionaire's wealth to things that the rest of 
 
 Let's take an example following the Oprah model: Everybody gets a Car!
 
-What if a Billionaire bought everyone in your town a Corvette? I live in Louisville, KY along with about 600K other people. A Corvet costs about $60K. It would cost $3.6B to buy a Corvette for every person in Louisville. 
+What if a Billionaire bought everyone in your town a Corvette? I live in Louisville, KY along with about 600K other people. A Corvet costs about $60K. It would cost $36 billion to buy a Corvette for every person in Louisville. 
 
 `600K people x $60K per Corvette = $36B`
 
@@ -42,7 +42,7 @@ Elon Musk could buy every man, woman, and child in Louisville KY a brand new Cor
 
 I live in Lousiville. I have a sense for how many people are here. I've seen a corvette. I have a sense for how much they cost. This makes it clear to me how absurd this amount of money is for one person.
 
-What would the equivalant purchse be for the average household in Louisville?
+What would the equivalant purchase be for the average household in Louisville?
 
 | State | Median Household Income |
 | ----- | ----------------------- |
