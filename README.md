@@ -40,7 +40,7 @@ But let's make it more specific. Elon Musk is a Billionaire. Specifically, he ha
 
 Elon Musk could buy every man, woman, and child in Louisville KY a brand new Corvette and still have over $232 billion dollars. It would cost him 13.5% of his Net Worth.
 
-I live in Lousiville. I have a sense for how many people are here. I've seen a corvette. I have a sense for how much they cost. This makes it clear to me how absurd this amount of money is for one person.
+I have a sense for how big Lousiville is. I've seen a corvette and have a sense for how much they cost. This helps me relate to how absurd this amount of money is for one person.
 
 What would the equivalant purchase be for the average household in Louisville?
 
@@ -58,22 +58,21 @@ After binging Downton Abbey and Succession, it quickly becomes clear that the we
 This app will help bridge that gap by relating a Billionaire's wealth in terms of typical consumer purchases.
 ## Data Sources
 
-[Forbes List of Billionaires](https://www.forbes.com/real-time-billionaires/)
+1. [Forbes List of Billionaires](https://www.forbes.com/real-time-billionaires/)
 
-[US Census Population by City](https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html#ds)
+1. [US Census Population by City](https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html#ds)
 
-[US Census Population by State](https://www.census.gov/data/datasets/time-series/demo/popest/2020s-state-total.html)
+1. [Median Household Income by State](https://worldpopulationreview.com/state-rankings/median-household-income-by-state)
 
-[Median Household Income by State](https://worldpopulationreview.com/state-rankings/median-household-income-by-state)
+1. [Median Home Price by State](https://worldpopulationreview.com/state-rankings/median-home-price-by-state)
 
-## Data Cleaning
 
 ...
 
-## Describing the Data
-...
-## Analyzing the Data
-...
+## Project Backlog
+- [x] Document the Problem / Question in the README
+- [x] Find the data
+- [ ] Describe the raw data
+- [ ] Create Python script to clean the data
+- [ ] Create CLI app to display the Data
 
-## Using the App
-...
