@@ -1,21 +1,10 @@
 # bajillion
 
-bajillion is a simple app to help people relate to obscene wealth. This app is meant as an exmple for the Data Analysis with Python 1 course at [Code Louisville](https://www.codelouisville.org/).
+bajillion is a simple app to help relate to obscene wealth. This app is meant as an exmple for the Data Analysis with Python 1 course at [Code Louisville](https://www.codelouisville.org/).
 
 ## The Question / The Big Idea
 
-The concept is simple: Relate a billionaire's wealth to things that the rest of us might purchase.
-
-| Size of Purchase | Cost | Example |
-| ---------------- | ---- | ------- |
-| X-Large | $100K - $1M | House | 
-| Large | $10 - $99K | Car |
-| Medium | $1K - $9K | Disney Vacation |
-| Small | $100 - $900 | TV |
-| X-Small | $10 - $90 | X-mas Tree |
-| XX-Small | $1 - $9 | Coffee |
-
-Let's take an example following the Oprah model: Everybody gets a Car!
+The concept is simple: Relate a billionaire's wealth to things that the rest of us might purchase. Let's take an example following the Oprah model: Everybody gets a Car!
 
 What if a Billionaire bought everyone in your town a Corvette? I live in Louisville, KY along with about 600K other people. A Corvet costs about $60K. It would cost $36 billion to buy a Corvette for every person in Louisville. 
 
@@ -51,6 +40,17 @@ What would the equivalant purchase be for the average household in Louisville?
 
 `$50,589 * 13.5% = $6,793`
 
+Examples of things someone in Louisville might buy:
+| Size | Range | Example |
+| ---------------- | ---- | ------- |
+| X-Large | $100K - $1M | House | 
+| Large | $10 - $99K | Car |
+| Medium | $1K - $9K | Disney Vacation |
+| Small | $100 - $900 | TV |
+| X-Small | $10 - $90 | X-mas Tree |
+| XX-Small | $1 - $9 | Coffee |
+
+
 That means that Elon Musk spending 36 billion dollars to  buy a corvette for every person in Louisville, KY would be similar to someone from Louisville taking the family to Disney World.
 
 After binging Downton Abbey and Succession, it quickly becomes clear that the wealthiest people inhabit a different world than the rest of us. It's hard to relate to a large number like $268 Billion. 
@@ -67,12 +67,18 @@ This app will help bridge that gap by relating a Billionaire's wealth in terms o
 1. [Median Home Price by State](https://worldpopulationreview.com/state-rankings/median-home-price-by-state)
 
 
-...
+## Data Cleaning
+
+Cleaning the list of billionaires from Forbes involved:
+1. convert the forbes HTML table to CSV using online converter
+1. remove blank lines
+1. convert rank from string to int
+1. parse the net worth ro remove characters and convert from float to int
+1. omit the change column from the raw file
 
 ## Project Backlog
 - [x] Document the Problem / Question in the README
 - [x] Find the data
-- [ ] Describe the raw data
-- [ ] Create Python script to clean the data
-- [ ] Create CLI app to display the Data
+- [x] Create Python script to clean the data
+- [ ] Create CLI app to display the cleaned Data
 
