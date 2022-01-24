@@ -79,8 +79,6 @@ Give the app a billionaire and a State, and the big problem to solve and the app
 
 1. [Forbes List of Billionaires](https://www.forbes.com/real-time-billionaires/)
 
-1. [US Census Population by City](https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html#ds)
-
 1. [Median Household Income by State](https://worldpopulationreview.com/state-rankings/median-household-income-by-state)
 
 1. [Median Home Price by State](https://worldpopulationreview.com/state-rankings/median-home-price-by-state)
@@ -136,7 +134,7 @@ Cleaning the list of billionaires from Forbes involved:
  
 #### Data Cleaning
 
-Cleaning the list of billionaires from Forbes involved:
+Cleaning the list of income from worldpopulationreview.com involved:
 1. No data cleaning needed
 
 
@@ -160,7 +158,7 @@ Cleaning the list of billionaires from Forbes involved:
  
 #### Data Cleaning
 
-Cleaning the list of billionaires from Forbes involved:
+Cleaning the list of home prices from worldpopulationreview.com involved:
 1. No data cleaning needed
 
 
