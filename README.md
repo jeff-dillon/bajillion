@@ -74,7 +74,7 @@ This app will help bridge that gap by relating a Billionaire's wealth in terms o
 [^1]: average estimate for 1 year
 
 
-Give the app a billionaire and a State, and the big problem to solve and the app will tell you the relative expense for the average person in your state.
+Give the app a billionaire and a State and the app will tell you the relative expense for a billionaire to solve a world problem compared to typical expeses for someone in the given state.
 ## Data Sources
 
 1. [Forbes List of Billionaires](https://www.forbes.com/real-time-billionaires/)
@@ -116,7 +116,7 @@ Cleaning the list of billionaires from Forbes involved:
 1. omit the change column from the raw file
 
 
-### HouseholdIncome.csv
+### MedianHomeCost.csv
 
 #### File Details
 | | |
@@ -130,17 +130,17 @@ Cleaning the list of billionaires from Forbes involved:
 | Column | Description | Example |
 | ------ | ----------- | ------- | 
 |  State | String of state name | New Mexico |
-| MedianValue | int with range between 45081 - 84805 | 171400 |
+| MedianValue | int with range from 119000 - 615300 | 171400 |
  
 #### Data Cleaning
 
-Cleaning the list of income from worldpopulationreview.com involved:
+Cleaning the list of house value from worldpopulationreview.com involved:
 1. No data cleaning needed
 
 
 
 
- ### MedianHomeCost.csv
+ ### HouseholdIncome.csv
 
 #### File Details
 | | |
@@ -154,11 +154,11 @@ Cleaning the list of income from worldpopulationreview.com involved:
 | Column | Description | Example |
 | ------ | ----------- | ------- | 
 |  State | String of state name | New Mexico |
-| HouseholdIncome | int with range from 119000 - 615300 | 49754 |
+| HouseholdIncome | int with range between 45081 - 84805 | 49754 |
  
 #### Data Cleaning
 
-Cleaning the list of home prices from worldpopulationreview.com involved:
+Cleaning the list of incomes from worldpopulationreview.com involved:
 1. No data cleaning needed
 
 
@@ -170,5 +170,5 @@ Cleaning the list of home prices from worldpopulationreview.com involved:
 - [x] Describe the data
 - [x] Create Python script to clean the data
 - [ ] Create Python script to analyze the clean data
-- [ ] Create Python script to show a visualization of the clean data
+- [ ] Create Python script to visualize the clean data analysis
 
