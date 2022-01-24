@@ -1,6 +1,8 @@
 from dataclasses import dataclass
+from dataclasses_json import dataclass_json
 import json
 
+@dataclass_json
 @dataclass
 class Billionaire:
     id : int
@@ -10,6 +12,7 @@ class Billionaire:
     source : str
     country : str
 
+@dataclass_json
 @dataclass
 class City:
     id : int
@@ -35,6 +38,7 @@ class DataLoader:
                     country=b['country']
                 )
             )
+        file.close()
         return billionaire_list
     
     def loadCities():
@@ -52,5 +56,6 @@ class DataLoader:
                     household_income=b['household_income']
                 )
             )
+        file.close()
         return city_list
 

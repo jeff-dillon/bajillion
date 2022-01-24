@@ -1,16 +1,22 @@
 # bajillion
 
-bajillion is a simple app to help relate to obscene wealth. This app is meant as an exmple for the Data Analysis with Python 1 course at [Code Louisville](https://www.codelouisville.org/).
+bajillion is a simple app to help relate to obscene wealth. This app is meant 
+as an exmple for the Data Analysis with Python 1 course at 
+[Code Louisville](https://www.codelouisville.org/).
 
 ## The Question / The Big Idea
 
-The concept is simple: Relate a billionaire's wealth to things that the rest of us might purchase. Let's take an example following the Oprah model: Everybody gets a Car!
+How does abillionaire's wealth relate to things that the rest of us might purchase? 
 
-What if a Billionaire bought everyone in your town a Corvette? I live in Louisville, KY along with about 600K other people. A Corvet costs about $60K. It would cost $36 billion to buy a Corvette for every person in Louisville. 
+Let's take an example following the Oprah model: Everybody gets a Car!
+
+What if a Billionaire bought everyone in your town a Corvette? I live in Louisville, KY along with about 600K other people. A Corvet costs about $60K. 
 
 `600K people x $60K per Corvette = $36B`
 
-But let's make it more specific. Elon Musk is a Billionaire. Specifically, he has $268 Billion dollars in Net Worth as of 1/15/2022. 
+It would cost $36 billion to buy a Corvette for every person in Louisville. 
+
+But let's make it more specific. Here's a list of the top ten Billionaires.  
 
 | Rank | Name | Net Worth |
 | ---- | ---- | --------- |
@@ -25,37 +31,54 @@ But let's make it more specific. Elon Musk is a Billionaire. Specifically, he ha
 | 9 | Sergey Brin | $115.1 B |
 | 10 | Steve Ballmer | $98.5 B |
 
+Elon Musk is a Billionaire. Specifically, he has $268 Billion dollars in Net Worth as of 1/15/2022.
+
 `$268 billion - 36 billion = ~ $232 billion`
 
-Elon Musk could buy every man, woman, and child in Louisville KY a brand new Corvette and still have over $232 billion dollars. It would cost him 13.5% of his Net Worth.
+Elon Musk could buy every man, woman, and child in Louisville KY a brand new Corvette and still have over $232 billion dollars. 
 
-I have a sense for how big Lousiville is. I've seen a corvette and have a sense for how much they cost. This helps me relate to how absurd this amount of money is for one person.
+`268B / 36B = 13.5%` 
 
-What would the equivalant purchase be for the average household in Louisville?
+It would cost Elon 13.5% of his Net Worth. What would the equivalant purchase be for someone in Louisville? The median household income in Kentucky is $50K.
 
 | State | Median Household Income |
 | ----- | ----------------------- |
 | KY | $50,589 |
-| US Median | $65,712 |
+
+13.5% of $50K is $6.7K.
 
 `$50,589 * 13.5% = $6,793`
 
-Examples of things someone in Louisville might buy:
-| Size | Range | Example |
-| ---------------- | ---- | ------- |
-| X-Large | $100K - $1M | House | 
-| Large | $10 - $99K | Car |
-| Medium | $1K - $9K | Disney Vacation |
-| Small | $100 - $900 | TV |
-| X-Small | $10 - $90 | X-mas Tree |
-| XX-Small | $1 - $9 | Coffee |
+Here's an example scale of things normal people buy:
+
+| Purchase Size | Range | % Income | Example |
+| ------------- | ----- | -------- | ------- |
+| X-Large | $100K+ | 200% + | House | 
+| Large | $10 - $99K | 20% - 200%  | Car |
+| Medium | $1K - $9K | 2% - 20%  | Disney Vacation |
+| Small | $100 - $999 | .5% - 2% | TV |
+| X-Small | $10 - $99 | .02% - .2% | X-mas Tree |
+| XX-Small | $1 - $9 | .002% - .02% | Coffee |
 
 
 That means that Elon Musk spending 36 billion dollars to  buy a corvette for every person in Louisville, KY would be similar to someone from Louisville taking the family to Disney World.
 
-After binging Downton Abbey and Succession, it quickly becomes clear that the wealthiest people inhabit a different world than the rest of us. It's hard to relate to a large number like $268 Billion. 
+This app will help bridge that gap by relating a Billionaire's wealth in terms of typical consumer purchases. Instead of buying cars for a city, let's look at estimates for solving big problems:
 
-This app will help bridge that gap by relating a Billionaire's wealth in terms of typical consumer purchases.
+| Problem | Estimate |
+| ----- | ---------- |
+| Provide Electricity to Sub-Saharan Africa | $160B |
+| World Hunger | $45B |
+| Homelessness in US | $20B |
+| Clean Water in Zimbabwe | $3B |
+
+Sources
+- [Eelectricity](https://www.sciencedirect.com/science/article/pii/S0140988312001144)
+- [Hunger](https://www.globalgiving.org/learn/how-much-would-it-cost-to-end-world-hunger/#:~:text=Learn%20more%20about%20the%20cost,Why%20such%20a%20big%20range%3F)
+- [Homelessness](https://www.globalgiving.org/learn/how-much-would-it-cost-to-end-homelessness-in-america/)
+- [Water](https://www.wri.org/insights/it-could-only-cost-1-gdp-solve-global-water-crises)
+
+Give the app a billionaire and a State, and the big problem to solve and the app will tell you the relative expense for the average person in your state.
 ## Data Sources
 
 1. [Forbes List of Billionaires](https://www.forbes.com/real-time-billionaires/)
@@ -66,6 +89,8 @@ This app will help bridge that gap by relating a Billionaire's wealth in terms o
 
 1. [Median Home Price by State](https://worldpopulationreview.com/state-rankings/median-home-price-by-state)
 
+## Data Description
+xyz
 
 ## Data Cleaning
 
@@ -79,6 +104,8 @@ Cleaning the list of billionaires from Forbes involved:
 ## Project Backlog
 - [x] Document the Problem / Question in the README
 - [x] Find the data
+- [ ] Describe the data
 - [x] Create Python script to clean the data
 - [ ] Create CLI app to display the cleaned Data
+- [ ] Create a visualization of the data
 
