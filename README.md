@@ -68,10 +68,10 @@ This app will help bridge that gap by relating a Billionaire's wealth in terms o
 | Problem | Estimate | Source |
 | ----- | ---------- | ------ |
 | Provide Electricity to Sub-Saharan Africa | $160B | [Source](https://www.sciencedirect.com/science/article/pii/S0140988312001144) |
-| World Hunger* | $45B | [Source](https://www.globalgiving.org/learn/how-much-would-it-cost-to-end-world-hunger/#:~:text=Learn%20more%20about%20the%20cost,Why%20such%20a%20big%20range%3F) |
+| World Hunger [^1] | $45B | [Source](https://www.globalgiving.org/learn/how-much-would-it-cost-to-end-world-hunger/#:~:text=Learn%20more%20about%20the%20cost,Why%20such%20a%20big%20range%3F) |
 | Homelessness in US | $20B | [Source](https://www.globalgiving.org/learn/how-much-would-it-cost-to-end-homelessness-in-america/) |
 | Clean Water in Zimbabwe | $3B | [Source](https://www.wri.org/insights/it-could-only-cost-1-gdp-solve-global-water-crises) |
-* average estimate for 1 year
+[^1]: average estimate for 1 year
 
 
 Give the app a billionaire and a State, and the big problem to solve and the app will tell you the relative expense for the average person in your state.
